@@ -25,6 +25,11 @@ Deno Deploy:
 
 - Eliminar un Personaje por su ID
   `/api/tierramedia/personajes/:id`
+  
+
+  ![Pruebas:](https://github.com/sergioom9/EjercicioEvaluableTypeScript/blob/main/Captura%20de%20pantalla%202023-10-27%20165002.png)
+
+
 
 ### POST
 
@@ -40,10 +45,15 @@ Deno Deploy:
     "habilidades": "Se programar mas o menos"
   }
 
+![Pruebas:](https://github.com/sergioom9/EjercicioEvaluableTypeScript/blob/main/Captura%20de%20pantalla%202023-10-27%20165033.png)
+
+
 ### PUT
 - Actualizar un Personaje por su ID
     `/api/tierramedia/personajes/:id`
 
+
+![Pruebas:](https://github.com/sergioom9/EjercicioEvaluableTypeScript/blob/main/Captura%20de%20pantalla%202023-10-27%20164951.png)
 
 
 ## Explicaciones especificas
