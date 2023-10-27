@@ -17,6 +17,10 @@ Deno Deploy:
   `/api/tierramedia/personajes/:id`
 
 
+![Pruebas:](https://github.com/sergioom9/EjercicioEvaluableTypeScript/blob/main/Captura%20de%20pantalla%202023-10-27%20164910.png)
+![ ](https://github.com/sergioom9/EjercicioEvaluableTypeScript/blob/main/Captura%20de%20pantalla%202023-10-27%20164919.png)
+
+
 ### DELETE
 
 - Eliminar un Personaje por su ID
