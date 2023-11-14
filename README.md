@@ -1,59 +1,37 @@
-# EjercicioEvaluableTypeScript
-Ejercicio de Arquitectura y Programación de Sistemas en Internet
+# Práctica 4 
+
+### Deno Deploy
+[]()
+
+## Endpoints
+
+### TARDIS
+
+#### Obtener información de la TARDIS mediante su ID 
+GET: ` /get_tardis/:id  `
 
 
-Deno Deploy:
+#### Crear nueva TARDIS 
+POST: ` /post_tardis `
 
-
-
-## EndPoints
-
-### GET
-
-- Obtener todos los personajes existentes
-  `/api/tierramedia/personajes`
-
-- Obtener un personaje mediante id
-  `/api/tierramedia/personajes/:id`
-
-
-![Pruebas:](https://github.com/sergioom9/EjercicioEvaluableTypeScript/blob/main/Captura%20de%20pantalla%202023-10-27%20164910.png)
-![ ](https://github.com/sergioom9/EjercicioEvaluableTypeScript/blob/main/Captura%20de%20pantalla%202023-10-27%20164919.png)
-
-
-### DELETE
-
-- Eliminar un Personaje por su ID
-  `/api/tierramedia/personajes/:id`
-  
-
-  ![Pruebas:](https://github.com/sergioom9/EjercicioEvaluableTypeScript/blob/main/Captura%20de%20pantalla%202023-10-27%20165002.png)
-
-
-
-### POST
-
-- Crear un Personaje
-  `/api/tierramedia/personajes`
-
-  Formato del Body:
+Formato del Body:
   ```json
   {
     "nombre": "Juanete",
     "raza": "Humano",
     "descripcion": "Soy una prueba",
     "habilidades": "Se programar mas o menos"
-  }
+  } 
 
-![Pruebas:](https://github.com/sergioom9/EjercicioEvaluableTypeScript/blob/main/Captura%20de%20pantalla%202023-10-27%20165033.png)
-
-
-### PUT
-- Actualizar un Personaje por su ID
-    `/api/tierramedia/personajes/:id`
+#### Actualizar informacion Tardis mediante su ID
+PUT: /put_tardis/:id
+(necesario un body)
 
 
-![Pruebas:](https://github.com/sergioom9/EjercicioEvaluableTypeScript/blob/main/Captura%20de%20pantalla%202023-10-27%20164951.png)
+#### Borrar TARDIS mediante su ID 
+DELETE: /delete_tardis/:id
+
+
 
 
 ## Explicaciones especificas
